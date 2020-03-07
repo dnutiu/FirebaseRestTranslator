@@ -6,5 +6,6 @@
         <Authors>Denis Nutiu</Authors>
         <Company>NucuLabs</Company>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <license>LICENSE.txt</license>
     </PropertyGroup>
 </Project>
