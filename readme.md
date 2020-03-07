@@ -1,4 +1,6 @@
-# FirebareRestTranslator
+# FirebaseRestTranslator
+
+[![CircleCI](https://circleci.com/gh/dnutiu/FirebaseRestTranslator.svg?style=svg)](https://circleci.com/gh/dnutiu/FirebaseRestTranslator)
 
 This is a small helper class that can be used to translate C#
 dictionaries into the Firebase REST format so they be posted
