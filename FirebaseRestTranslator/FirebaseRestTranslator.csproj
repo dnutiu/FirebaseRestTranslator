@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.0</TargetFramework>
         <PackageId>FirebaseRestTranslator</PackageId>
-        <Version>0.1.1</Version>
+        <Version>0.1.2</Version>
         <Authors>Denis Nutiu</Authors>
         <Company>NucuLabs</Company>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

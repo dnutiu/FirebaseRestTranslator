@@ -86,6 +86,32 @@ namespace FirebaseRestTranslator.UnitTests
             var actualJson = JsonConvert.SerializeObject(result);
             Assert.Equal(expectedJson, actualJson);
         }
+        
+        [Fact]
+        public void Test_FirebaseTranslator_IntegerValue_Uint()
+        {
+            var data = new Dictionary<string, object>()
+            {
+                ["myKey"] = (uint) 23
+            };
+            var expectedJson = "{\"name\":\"Test_FirebaseTranslator\",\"fields\":{\"myKey\":{\"integerValue\":23}}}";
+            var result = Translator.Translate("Test_FirebaseTranslator", data);
+            var actualJson = JsonConvert.SerializeObject(result);
+            Assert.Equal(expectedJson, actualJson);
+        }
+        
+        [Fact]
+        public void Test_FirebaseTranslator_IntegerValue_Long()
+        {
+            var data = new Dictionary<string, object>()
+            {
+                ["myKey"] = (long) 23
+            };
+            var expectedJson = "{\"name\":\"Test_FirebaseTranslator\",\"fields\":{\"myKey\":{\"integerValue\":23}}}";
+            var result = Translator.Translate("Test_FirebaseTranslator", data);
+            var actualJson = JsonConvert.SerializeObject(result);
+            Assert.Equal(expectedJson, actualJson);
+        }
 
         [Fact]
         public void Test_FirebaseTranslator_DoubleValue()

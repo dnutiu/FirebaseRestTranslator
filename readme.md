@@ -22,3 +22,9 @@ See the tests for usage.
         Assert.Equal(expectedJson, actualJson);
     }
 ```
+
+# Changelog
+
+### 0.1.2
+
+- Added support for uint, long types.

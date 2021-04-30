@@ -41,7 +41,15 @@ namespace FirebaseRestTranslator
                 {
                     return BuildString(v);
                 }
+                case uint v:
+                {
+                    return BuildInteger(v);
+                }
                 case int v:
+                {
+                    return BuildInteger(v);
+                }
+                case long v:
                 {
                     return BuildInteger(v);
                 }
@@ -112,7 +120,7 @@ namespace FirebaseRestTranslator
             return BuildSimpleValue("stringValue", value);
         }
 
-        private static Dictionary<string, object> BuildInteger(int value)
+        private static Dictionary<string, object> BuildInteger(long value)
         {
             return BuildSimpleValue("integerValue", value);
         }
