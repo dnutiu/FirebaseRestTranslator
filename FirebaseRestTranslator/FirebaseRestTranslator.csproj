@@ -7,5 +7,11 @@
         <Company>NucuLabs</Company>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <license>LICENSE.txt</license>
+        <RepositoryUrl>https://github.com/dnutiu/FirebaseRestTranslator</RepositoryUrl>
+        <PackageLicenseUrl>https://github.com/dnutiu/FirebaseRestTranslator/blob/master/LICENSE.txt</PackageLicenseUrl>
+        <Title>FirebaseRestTranslator</Title>
+        <Description>Translates C# dictionaries into Firebase restful JSONs.</Description>
+        <PackageProjectUrl>https://github.com/dnutiu/FirebaseRestTranslator/</PackageProjectUrl>
+        <PackageTags>Firebase,Rest</PackageTags>
     </PropertyGroup>
 </Project>
